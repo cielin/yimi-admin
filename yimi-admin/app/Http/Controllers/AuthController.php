@@ -32,7 +32,6 @@ class AuthController extends Controller
 			if (Auth::attempt($credentials)) {
 				return redirect()->intended('products');
 			}
-
 			return "wooha";
 			// return Redirect::route('admin.products.index');
 		}

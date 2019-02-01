@@ -37,6 +37,7 @@ Route::middleware(['auth'])->group(function()
 	Route::resource('brands', 'BrandsController');
 	Route::resource('productcategories', 'ProductCategoriesController');
 	Route::resource('orders', 'OrdersController');
+	Route::resource('notifys', 'NotifyController');
 	Route::resource('customers', 'CustomersController');
 	Route::resource('designers', 'DesignersController');
 	Route::resource('articles', 'ArticlesController');

@@ -90,6 +90,13 @@
                     <li><a href="{{ URL::route('reviews.index') }}">评论列表</a></li>
                 </ul>
             </li>
+            <li class="sidebar-list">
+                <a href="{{ URL::route('notifys.index') }}">消息管理 <span class="menu-icon icon-newspaper2"></span></a>
+                <ul class="sub-menu">
+                    <li><a href="{{ URL::route('notifys.index') }}">消息列表</a></li>
+                    <li><a href="{{ URL::route('notifys.create') }}">添加新消息</a></li>
+                </ul>
+            </li>
         </ul>
         <div class="sidebar-footer container">
             <div class="row">

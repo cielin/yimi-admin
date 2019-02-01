@@ -547,7 +547,12 @@ display: block;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-
+.pl{
+	width: 400px;
+	overflow:hidden;
+	text-overflow:ellipsis; 
+	white-space: nowrap;/*加宽度width属来兼容部分浏览*/
+}
 
 
 
